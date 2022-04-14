@@ -43,7 +43,7 @@ def sendText(message):
 	for number in numbers:
 		client.messages.create(
 			to = number,
-			from_= "+12569523490",
+			from_= "Twillio Phone Number",
 			body = message
 		)
 
