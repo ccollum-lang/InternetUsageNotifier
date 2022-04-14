@@ -35,8 +35,7 @@ auth_token = "Auth_Token"
 
 client = Client(account_sid, auth_token)
 
-numbers = ['+12052945350','+12059375524','+12055656348','+12053967039']
-
+numbers = ['ENTER LIST OF NUMBERS']
 
 
 
@@ -47,7 +46,6 @@ def sendText(message):
 			from_= "+12569523490",
 			body = message
 		)
-
 
 
 
